@@ -1,0 +1,182 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
+	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+    
+    <link rel="stylesheet" href="assets/css/demo.css">
+	<link rel="stylesheet" href="assets/css/sidebar-collapse.css">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  	
+	<title>NetBridge</title>
+</head>
+<body>
+	<header>
+		<!-- <h1>Welcome to NetBridge</h1> -->
+	</header>
+    
+	<aside class="sidebar-left-collapse">
+
+        <img src="assets/img/logo.png" class="company-logo">
+
+		<div class="sidebar-links">
+
+			<div class="link-blue selected">
+                
+                <h1 align="center";>Filter Your Results</h1>
+				<a href="#">
+                    
+					<i class="fa fa-picture-o"></i>Ethnicity
+				</a>
+
+				<ul class="sub-links">
+					<li><a href="#">Puertorican</a></li>
+					<li><a href="#">Dominican</a></li>
+					<li><a href="#">Gambian</a></li>
+					<li><a href="#">Cuban</a></li>
+				</ul>
+
+			</div>
+
+			<div class="link-red">
+
+				<a href="#">
+					<i class="fa fa-heart-o"></i>Technical Role
+				</a>
+
+				<ul class="sub-links">
+					<li><a href="#">Software Developer</a></li>
+					<li><a href="#">Software Engineer</a></li>
+					<li><a href="#">DevOps</a></li>
+					<li><a href="#">Network Engineer</a></li>
+				</ul>
+
+			</div>
+
+			<div class="link-yellow">
+
+				<a href="#">
+					<i class="fa fa-keyboard-o"></i>Country
+				</a>
+
+				<ul class="sub-links">
+					<li><a href="#">United States</a></li>
+					<li><a href="#">United Kingdom</a></li>
+					<li><a href="#">Australia</a></li>
+					<li><a href="#">Canada</a></li>
+				</ul>
+
+			</div>
+
+			<div class="link-green">
+
+				<a href="#">
+					<i class="fa fa-map-marker"></i>State
+				</a>
+
+				<ul class="sub-links">
+					<li><a href="#">New York</a></li>
+					<li><a href="#">Minnesota</a></li>
+					<li><a href="#">Oregon</a></li>
+					<li><a href="#">California</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</aside>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+
+		$(function () {
+
+			var links = $('.sidebar-links > div');
+
+			links.on('click', function () {
+
+				links.removeClass('selected');
+				$(this).addClass('selected');
+
+			});
+		});
+
+	</script>
+
+	<section id="cd-timeline" class="cd-container">
+        
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Jonathan Sanchez | Intel | Software Engineer</h2>
+				<p>Random Text</p>
+				<a href="../NetFeed/profile/profile.html" class="cd-read-more">Profile</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+        
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Jonathan Sanchez | Intel | Software Engineer</h2>
+				<p>Random Text</p>
+				<a href="#0" class="cd-read-more">Profile</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Jonathan Sanchez | Intel | Software Engineer</h2>
+				<p>Random Text</p>
+				<a href="#0" class="cd-read-more">Profile</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Jonathan Sanchez | Intel | Software Engineer</h2>
+				<p>Random Text</p>
+				<a href="#0" class="cd-read-more">Profile</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+        
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Jonathan Sanchez | Intel | Software Engineer</h2>
+				<p>Random Text</p>
+				<a href="#0" class="cd-read-more">Profile</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->     
+        
+	</section> <!-- cd-timeline -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
