@@ -1,3 +1,15 @@
+:: Start the front-end website server
+:: usage: start-web version config port 
+::
+::
+@echo off
+
+:: Command-line options
+set port= %1
+if "%port"== set port=3000
+
+echo port  :%port%
+
 :check_nodejs
    :: Check if NodeJS is installed a
    echo node version:
